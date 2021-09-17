@@ -1,4 +1,4 @@
-SUMMARY = "Client side implementation for TREZOR-compatible NestEGG Coin hardware wallets."
+SUMMARY = "Client side implementation for TREZOR-compatible Bitcoin hardware wallets."
 
 HOMEPAGE = "https://github.com/trezor/python-trezor"
 LICENSE = "LGPLv3"

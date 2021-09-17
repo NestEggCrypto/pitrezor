@@ -1,4 +1,5 @@
-FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
-SRC_URI += "file://yocto.patch"
-DEPENDS = "virtual/egl"
-PACKAGECONFIG = "gles2"
+PACKAGECONFIG = "kmsdrm gles2"
+EXTRA_OECONF_append = " --disable-video-rpi "
+DEPENDS += "udev"
+BBCLASSEXTEND=""
+
